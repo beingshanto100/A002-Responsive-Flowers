@@ -39,6 +39,11 @@ main > section{
     justify-content: space-between;
     margin-top:25px 0;
 }
+.hide{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
 .nav-links{
     display: flex;
     gap: 48px;
@@ -135,6 +140,7 @@ main > section{
     color: rgba(0, 0, 0, 0.5);
     font-weight: 500;
     font-size: 1.375rem;
+    margin: 0 auto;
     padding: 20px;
     width: 500px;
 }
@@ -263,5 +269,33 @@ section input[type="email"]{
     width: 300px;
     font-weight: 500;
     font-size: 1.375rem;
+}
+@media screen and(max-width:576px) {
+    .fresh-flower{
+        flex-direction: column-reverse;
+    }
+    .hide{
+        display: hide;
+    }
+    .plant-container-photo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .orginal-badge{
+        display: hide;
+    }
+    .flower-lover{
+        flex-direction: column;
+    }
+    .store{
+        width: 100%;
+    }
+    .lover{
+        width: 100%;
+    }
+    .footer-part{
+        flex-direction:column;
+    }
+    
 }
 
