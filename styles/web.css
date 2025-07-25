@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     max-width: 1440px;
     margin: 0 auto;
@@ -221,9 +225,6 @@ main > section{
 .colorful{
     padding: 193px 305px 193px 305px;
 }
-.bunch-item{
-    
-}
 .colorful-bunch-heading{
     color: #FFFFFF;
     font-weight: 700;
@@ -270,6 +271,74 @@ section input[type="email"]{
     font-weight: 500;
     font-size: 1.375rem;
 }
+.grid-image{
+    border-radius: 22px;
+
+}
+
+.grid-container{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 28px;
+    
+    
+}
+
+
+.one-two{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 28px;    
+}
+.grid-image{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.grid-image1{
+    border-radius: 22px;
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+.text-bloom1,.text-bloom1,.text-bloom1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloom-plant1,.bloom-plant1,.bloom-plant1{
+    width: 500px;
+    position: relative;
+   
+}
+.bloom-description{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.325rem;
+}
+.bloom-description1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2.6rem;
+    
+}
+.button a{
+     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.325rem;
+}
+
 @media screen and(max-width:576px) {
     .fresh-flower{
         flex-direction: column-reverse;
